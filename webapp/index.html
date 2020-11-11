@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter Sentiment Analysis</title>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+
+		</div>
+		<h1>Data Engineering Project</h1>
+		<h2>Twitter Sentiment Analysis</h2>
+
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p>Enter Your Message Here</p>
+
+		<textarea name="message" rows="4" cols="50"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="Confirm">
+
+	</form>
+
+	</div>
+
+
+
+
+</body>
+</html>
