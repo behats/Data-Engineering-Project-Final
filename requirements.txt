@@ -1,0 +1,4 @@
+Flask
+nltk
+Werkzeug
+python-dateutil
